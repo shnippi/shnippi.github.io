@@ -17,12 +17,18 @@ const Header = () => {
           </Fade>
           <Fade bottom cascade>
             <div className="heading-wrapper">
+              <div className="quote-div">
+                <h2 className="quote-paragraph">{data.headerTagline[0]}</h2>
+                <h2 className="quote-credit">- Râphy H.</h2>
+              </div>
+
+              {/*
               <h2>
                 {data.headerTagline[0]
                   ? data.headerTagline[0]
                   : "Building digital"}
               </h2>
-              {/* <h2>
+               <h2>
                 {" "}
                 {data.headerTagline[1]
                   ? data.headerTagline[1]

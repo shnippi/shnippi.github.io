@@ -24,7 +24,7 @@ export default {
   name: "Jan",
   headerTagline: [
     //Line 1 For Header
-    "A Machine Learning student at ETH Zürich",
+    "\"A machine learning Machine Learning at ETH Zürich\"",
     //Line 2 For Header
     "with a great interest in Artificial Intelligence",
     //Line 3 For Header
@@ -119,9 +119,9 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Hey, my name is Jan and I'm 21 years old student from Switzerland. After getting my matura with 16, i wanted to further peruse my interests in maths and programming and therefore I'm currently doing a Master's in Computer Science at ETH Zürich. ",
+    "Hey, my name is Jan and I'm a 21 years old student from Switzerland. After getting my matura with 16, i wanted to further pursue my interests in maths and programming and therefore I'm currently doing a Master's in Computer Science at ETH Zürich. ",
   aboutParaTwo:
-    "As you can imagine when looking at my projects, i have a passion for deep learning and anything brain related. These are also the subjects i will dive in during my master studies.",
+    "As you can imagine when looking at my projects, i have a passion for deep learning and anything brain related. These are also the subjects i will dive further into during my master studies.",
   aboutParaThree:
     "Next to my studies, i am a Tutor in Informatics for undergraduates. I also like going to the gym and practice several team sports.",
   aboutImage:
@@ -172,16 +172,15 @@ export default {
 
   promotionHeading: "About me",
   promotionPara:
-    `Hey, my name is Jan and I'm 21 years old student from Zürich, Switzerland. 
-    After getting my matura with 16 years of age, i wanted to further peruse my interests in 
-    maths and programming and this lead to me doing a Master's in 
-    Computer Science at ETH Zürich. 
+    `Hey, my name is Jan and I'm a 21 years old student from Zürich, Switzerland. 
+    After getting my matura with 16 years of age, i wanted to further pursue my interests in 
+    maths and programming and and therefore I'm currently doing a Master's in Computer Science at ETH Zürich. 
 
     As you can imagine when looking at my projects, 
     i have a passion for deep learning and anything brain related.
 
     Next to my studies, i am also a Tutor in Informatics for undergraduates. 
-    I also like going to the gym and practice several team sports.`,
+    I also like going to the gym and practice several team sports and am very happy to travel.`,
 
   promotionPara2: `If you want to know more about me, take a look at my socials below :)`,
   // End Promotion Section -----------------

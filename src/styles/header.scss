@@ -4,6 +4,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 10em;
+
+  h1 {
+    font-size: 5em;
+    margin-bottom: 1.5em;
+    margin-top: 0.8em;
+
+    @include media(">=phone", "<lgphone") {
+      font-size: 3em;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 3em;
+    }
+    @include media(">=tablet", "<desktop") {
+      
+    }
+  }
 
   h2 {
     font-size: 1rem;
@@ -34,6 +51,51 @@
       @include media(">=tablet", "<desktop") {
         font-size: 2.5rem;
       }
+    }
+
+    .quote-div {
+      font-style: italic;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .quote-paragraph {
+      font-size: 2em;
+      width: 100%;
+
+      @include media(">=phone", "<lgphone") {
+        font-size: 1.7rem;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 1.7rem;
+      }
+      @include media(">=tablet", "<desktop") {
+        
+      }
+
+
+    }
+
+    .quote-credit {
+      font-size: 1.4em;
+      font-weight: 100;
+      margin-top: 0px;
+      text-align: right;
+      width: 100%;
+
+      @include media(">=phone", "<lgphone") {
+        font-size: 1.2rem;
+        line-height: 10px;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 1.4rem;
+        line-height: 10px;
+      }
+      @include media(">=tablet", "<desktop") {
+        
+      }
+
+
     }
   }
   p {
