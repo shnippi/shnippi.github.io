@@ -32,7 +32,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "Im a Computer Science student with a great interest in Artificial Intelligence and a passion for anything brain related.",
+    "I'm a Computer Science student with a great interest in Artificial Intelligence and a passion for anything brain related.",
 
   //Contact Email
   contactEmail: "janjosef.schnyder@bluewin.ch",
@@ -50,6 +50,7 @@ export default {
         "/imgs/Lenetpluplus.PNG",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/shnippi",
+      color: "black",
     },
     {
       title: "Generative Adversarial Networks", //Project Title - Add Your Project Title Here
@@ -60,6 +61,7 @@ export default {
       "/imgs/GAN_color.PNG",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/shnippi/GAN",
+      color: "black",
     },
     {
       title: "OpenAI GYM", //Project Title - Add Your Project Title Here
@@ -70,6 +72,7 @@ export default {
         "imgs/lunar_lander.jpg",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/shnippi/GYM",
+      color: "white",
     },
     {
       title: "Snake AI", //Project Title - Add Your Project Title Here
@@ -80,6 +83,7 @@ export default {
         "imgs/snake.PNG",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/shnippi/SnakeQ",
+      color: "white",
     },
     
     /*

@@ -2,7 +2,7 @@ import React from "react"
 import astronaut from "../../images/gatsby-astronaut.png"
 
 
-const Card = ({ heading, paragraph, img, projectLink }) => {
+const Card = ({ heading, paragraph, img, projectLink, color }) => {
   return (
     <div
       className="card"
@@ -11,7 +11,7 @@ const Card = ({ heading, paragraph, img, projectLink }) => {
         `url(${img})`
       }}
     >
-      <div className="content">
+      <div className={"content" + color}>
         <h1 className="header">{heading}</h1>
         <p className="text">{paragraph}</p>
         <a
