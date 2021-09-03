@@ -46,14 +46,14 @@ const Header = () => {
             <p>{data.headerParagraph}</p>
           </Fade>
           <Fade bottom>
+
             <a
-              href={`mailto:${
-                data.contactEmail ? data.contactEmail : "hello@chetanverma.com"
-              }`}
+              href={"https://docs.google.com/gview?url=https://github.com/shnippi/bachelor-thesis/raw/master/thesis/bachelor-thesis.pdf&embedded=true"}
               className="primary-btn"
             >
-              CONNECT WITH ME
+              MY RESUME
             </a>
+
           </Fade>
         </div>
       </div>

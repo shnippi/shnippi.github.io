@@ -2,6 +2,8 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 
+// THIS DOES NOT GET USED: FOR THE ABOUT SECTION LOOK AT THE PROMOTION SECTION
+
 const About = () => {
   return (
     <div className="secion" id="about">
@@ -31,3 +33,5 @@ const About = () => {
 }
 
 export default About
+// THIS DOES NOT GET USED: FOR THE ABOUT SECTION LOOK AT THE PROMOTION SECTION
+

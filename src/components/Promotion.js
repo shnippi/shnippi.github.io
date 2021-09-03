@@ -4,7 +4,7 @@ import data from "../yourdata"
 
 const Promotion = () => {
   return (
-    <div className="section">
+    <div className="section" id="promotion">
       <div className="container">
         <div className="promotion-container">
           <Fade bottom cascade>
@@ -12,6 +12,14 @@ const Promotion = () => {
           </Fade>
           <p>{data.promotionPara}</p>
           <p>{data.promotionPara2}</p>
+          <a
+              href={`mailto:${
+                data.contactEmail ? data.contactEmail : "hello@chetanverma.com"
+              }`}
+              className="primary-btn"
+            >
+              CONNECT WITH ME
+            </a>
         </div>
       </div>
     </div>

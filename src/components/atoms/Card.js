@@ -1,5 +1,4 @@
 import React from "react"
-import astronaut from "../../images/gatsby-astronaut.png"
 
 
 const Card = ({ heading, paragraph, img, projectLink, color }) => {
