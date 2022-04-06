@@ -80,7 +80,7 @@ export default {
         "Solving Snake with different SOTA deep reinforcement learning algorithms", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "imgs/snake.PNG",
+        "imgs/snake.png",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/shnippi/SnakeQ",
       color: "white",
