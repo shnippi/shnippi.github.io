@@ -48,7 +48,7 @@ const Header = () => {
           <Fade bottom>
 
             <a
-              href={"https://docs.google.com/gview?url=https://github.com/shnippi/shnippi.github.io/raw/master/src/CV/CV_Jan_Schnyder.pdf"}
+              href={"https://docs.google.com/gview?url=https://github.com/shnippi/shnippi.github.io/raw/master/CV/CV_Jan_Schnyder.pdf"}
               className="primary-btn"
             >
               MY RESUME
